@@ -19,6 +19,9 @@ public class CharacterIntros extends AllWorld
     private Color borderColor = new Color(192, 192, 192);
     private Color transparentColor = new Color(0, 0, 0, 0);
     private Color textColor = new Color(250, 249, 246);
+    
+    // Initalize font so the text isn't displayed as default font
+    SimulationFont empty = new SimulationFont("", 1, 1, 1, 1, bgColor);
 
     // Button to control stories
     IntroButton leftButton;

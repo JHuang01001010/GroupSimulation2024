@@ -86,6 +86,7 @@ public class IntroWorld extends AllWorld
         // Covering the double background
         SuperTextBox cover = new SuperTextBox("A", Color.BLACK, Color.BLACK, SimulationFont.loadCustomFont("VT323-Regular.ttf",80), true, 1200, 0, Color.BLACK);
         addObject(cover, 600, 780); 
+        
         // Initalize font so the text isn't displayed as default font
         SimulationFont.initalizeFont();
         
